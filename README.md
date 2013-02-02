@@ -10,6 +10,9 @@ Author: Xihuitl (bmwnfun@gmail.com or irc.synirc.net (xihuitl) #newznab, #newzna
 ### Simple ###
 Author: kevinlekiller(irc.synirc.net (kevin123) #newznab)
 #### Screenshots ####
+![simple screenshot 1](https://raw.github.com/Xihuitl/Newznab_Themes/master/screenshots/simple_item.jpg)
+![simple screenshot 2](https://raw.github.com/Xihuitl/Newznab_Themes/master/screenshots/simple_item2.jpg)
+![simple screenshot 3](https://raw.github.com/Xihuitl/Newznab_Themes/master/screenshots/simple_list.jpg)
 
 ### Carbon ###
 Author: kevinlekiller(irc.synirc.net (kevin123) #newzanb)
