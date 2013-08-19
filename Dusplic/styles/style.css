@@ -24,12 +24,12 @@ p, ul, ol { margin-top: 0; line-height: 240%;	text-align: justify; }
 ul, ol { }
 blockquote { }
 a {
-border-bottom: 1px solid #8A8E99;
+border: none;
 color: #4369D1;
 text-decoration: none;
 }
 a:hover {
-border: none;
+border-bottom: 1px solid #8A8E99;
 }
 a img { border: none; }
 img.left { float: left; margin: 7px 30px 0 0; }
@@ -348,17 +348,17 @@ span.warning { color: red; }
 /*! Newznab tooltip style */
 .ui-tooltip-newznab .ui-tooltip-titlebar,
 .ui-tooltip-newznab .ui-tooltip-content{
-	border-color: #90D93F;
-	color: #3F6219;
+	border-color: #426292;
+	color: #426292;
 }
 
 	.ui-tooltip-newznab .ui-tooltip-content{
-		background-color: #CAED9E;
+		background-color: #DEE5F0;
 	}
 
 	.ui-tooltip-newznab .ui-tooltip-titlebar{
-		background-color: #B0DE78;
-		color:white;
+		background-color: #9CA1A8;
+		color:#6F7A9F;
 		font-size:1.2em;
 	}
 
