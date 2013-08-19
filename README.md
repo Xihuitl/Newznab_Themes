@@ -8,7 +8,10 @@ If you have issues with any theme found here, contact the author as provided in 
 
 ### About ###
 Author: Xihuitl (bmwnfun@gmail.com or irc.synirc.net #newznab <xihuitl>)
+
 Dusplic is an full with theme adaptated from http://www.freecsstemplates.org/preview/dusplic/
+
+*Only the frontend is themed at this time.*
 
 
 ### Screenshots ###

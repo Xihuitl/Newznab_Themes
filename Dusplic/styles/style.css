@@ -13,10 +13,12 @@ text-transform: uppercase;
 margin: 0;
 color: #6F7A9F;
 }
-input, select, textarea { font-family: Calibri, Arial, Helvetica, sans-serif;}
+input, select, textarea {
+font-family: Calibri, Arial, Helvetica, sans-serif;
+}
 textarea { height:50px; width:300px;}
 h1 { font-size: 44px; padding-bottom:10px;}
-h2 { padding-bottom:5px; font-size: 1.6em; }
+h2 { padding-bottom:5px; font-size: 1.2em; }
 h3 { padding:10px 0 5px 0;}
 p, ul, ol { margin-top: 0; line-height: 240%;	text-align: justify; }
 ul, ol { }
@@ -33,10 +35,21 @@ a img { border: none; }
 img.left { float: left; margin: 7px 30px 0 0; }
 img.right { float: right; margin: 7px 0 0 30px; }
 hr { display: none; }
-input[type=text], input[type=password], textarea, select { background: #fff; background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(4%, #f0f0f0), to(#fff)); border: 1px solid #ccc; border-bottom-color: #999; border-right-color: #999; margin: 0; padding: 4px; color: #444; font-size: 100%; outline: none; }
+input[type=text], input[type=password], textarea, select {
+background-image: url(../images/textarea.jpg);
+border: 1px solid #ccc;
+border-bottom-color: #999;
+border-right-color: #999;
+margin: 0;
+padding: 4px;
+color: #444;
+font-size: 100%;
+outline: none;
+}
 
-
-
+#username {
+background-image: url(../images/textarea.jpg);
+}
 
 
 
@@ -208,12 +221,12 @@ data tables, most lists.
 */
 #browsetable, #coverstable, #forumtable { margin-top: 10px; clear: both; }
 table.data { border-collapse:collapse; }
-table.data th { text-align:left; vertical-align:top; background-color:#DDD; border-color: #AAA; border-width: 1px; border-style: solid; padding:3px; font-style:bolder; text-transform:capitalize;}
+table.data th { text-align:left; vertical-align:top; background-color:#cad3e0; border-color: #AAA; border-width: 1px; border-style: solid; padding:3px; font-style:bolder; text-transform:capitalize;}
 table.data td { white-space:normal; vertical-align:top; padding:5px; border-color: #AAA; border-width: 1px; border-style: solid; }
 table.data td.less { color: #888; font-size: 0.9em; white-space:nowrap; }
 table.data td.icons { white-space:nowrap; padding-left:0px; padding-right:0px; width:60px; }
 table.data td.check {cursor:pointer;}
-table.highlight tr:hover td { background-color: #E1F0D9; }
+table.highlight tr:hover td {  }
 table tr.alt { background-color: #F6F6F6; }
 table tr.new { background-color: #f6f8ff; }
 table.data em {font-weight:bolder; color:red;}
@@ -254,7 +267,7 @@ legend { padding: 0.4em 0.6em; border:1px solid #999; font-weight:bold; text-ali
 pager
 */
 div.pager {display:inline;}
-div.pager a {font-weight:bold; background-color:#DDD; padding:0 3px 0px 4px; border:1px #CCC solid;}
+div.pager a {font-weight:bold; background-color:#cad3e0; padding:0 3px 0px 4px; border:1px #CCC solid;}
 div.pager .current {color:#fff; font-weight:bold; background-color:#777; padding:0 4px 0px 4px; border:1px #CCC solid;}
 
 
@@ -266,10 +279,10 @@ div.pager .current {color:#fff; font-weight:bold; background-color:#777; padding
 /*
 round buttoning
 */
-.rndbtn { padding:0 4px 0 4px; margin:auto; border:1px #CCC solid; background-color:#EEE; -moz-border-radius: 4px;  -webkit-border-radius: 4px; border-radius: 4px; }
-table.highlight tr:hover .rndbtn, table tr.alt .rndbtn { background-color: #fff; }
-table.highlight tr:hover .rndbtn:hover { background-color: #DDD; }
-table.highlight tr:hover td.static { background-color: #FFF; }
+.rndbtn { padding:0 4px 0 4px; margin:auto; border:1px #CCC solid; background-color:#cad3e0; -moz-border-radius: 4px;  -webkit-border-radius: 4px; border-radius: 4px; }
+table.highlight tr:hover .rndbtn, table tr.alt .rndbtn {  }
+table.highlight tr:hover .rndbtn:hover {  }
+table.highlight tr:hover td.static {  }
 
 
 
@@ -396,7 +409,7 @@ icons and multioperation buttons
 input.nzb_check_all { margin-left:5px; }
 #nzb_multi_operations_form { clear: both; }
 div.nzb_multi_operations { color:#888; display:inline; float:right; text-align: right; clear: both; }
-div.nzb_multi_operations input { color:#888; background-color:#fff; border:1px solid #ddd; }
+div.nzb_multi_operations input { color:#888; background-color:#cad3e0; border:1px solid #ddd; }
 div.nzb_multi_operations input:hover { color:#000; border:1px solid #000; cursor:pointer; }
 
 div.icon { width:16px; height:16px; background-repeat:no-repeat; cursor:pointer; position:relative; float:left; margin:2px; }
@@ -405,7 +418,7 @@ div.icon_cart			{ background-image:url('../images/icons/cartup.png'); }
 div.icon_cart_clicked	{ background-image:url('../images/icons/cartdown.png'); }
 div.icon_nzb			{ background-image:url('../images/icons/nzbup.png'); }
 div.icon_nzb_clicked	{ background-image:url('../images/icons/nzbdown.png'); }
-div.icon_nzb a			{ text-decoration:none; padding-bottom:2px; padding-right:12px; }
+div.icon_nzb a			{ border: none; text-decoration:none; padding-bottom:2px; padding-right:12px; }
 div.icon_sab			{ background-image:url('../images/icons/sabup.png'); }
 div.icon_sab_clicked	{ background-image:url('../images/icons/sabdown.png'); }
 div.icon_tvrage			{ background-image:url('../images/icons/tvrage.png'); }
