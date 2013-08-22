@@ -45,8 +45,8 @@
 	<div id="logo">
 		<a class="logolink" title="{$site->title} Logo" href="{$smarty.const.WWW_TOP}{$site->home_link}"><img class="logoimg" alt="{$site->title} Logo" src="{$smarty.const.WWW_TOP}/templates/simple/images/clearlogo.png" /></a>
 
-		{if $site->menuposition==2}<ul>{$main_menu}</ul>{/if}
-		{if $site->menuposition==1}<ul>{$main_menu}</ul>{/if}
+		<ul>{$main_menu}</ul>
+		
 
 		<h1><a href="{$smarty.const.WWW_TOP}{$site->home_link}">{$site->title}</a></h1>
 		<p><em>{$site->strapline}</em></p>
