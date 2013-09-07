@@ -13,6 +13,7 @@ All themes have been verified working on SVN revision 2954.
 2. Choose the theme you wish to use, and copy that directory into your <newznab/base/path>/www/templates directory. For example, if you installed newznab into /var/www/newznab, you would execute `cp -r Dusplic /var/www/newznab/www/templates`
 3. After the theme directory is copied into place, go into Admin -> edit site to choose the new theme. Be sure to use the save button at the bottom of the site settings page.
 4. *Not all themes modify the admin templates, so you'll have to get out of the admin area to see changes.*
+
 ## Theme List ##
 
 ### Dusplic (full-featured)###
@@ -20,8 +21,7 @@ This is a full-featured, full-width theme adapted from [Dusplic (freecsstemplate
 
 Any issues should be reported to Xihuitl on synirc #newznab or via [bmwnfun@gmail.com](mailto://bmwnfun@gmail.com)
 
-### Simple (minimalistic)###
+### Simple (minimalistic or full-featured)###
 This is a full-width original theme created by Kevin123 to be as simplistic as possible while retaining asthetics. It focuses on listing releases with as little distraction as possible.
 
-### Zenlike (full-featured)(dev tree only) ###
-This theme is a semi full-width theme currently under development. It is not recommended for use at this time.
+For better viewability with NZB360 style apps, turn off menu items in Admin > Menu Items.
